@@ -1,0 +1,27 @@
+.blog-tile {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .tile-heading {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; 
+  }
+  
+  .tile-description {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  
+  @media (max-width: 767px) {
+    .blog-tile {
+      width: 100%;
+    }
+  }
+  
